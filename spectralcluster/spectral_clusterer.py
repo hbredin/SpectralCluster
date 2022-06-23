@@ -85,7 +85,7 @@ class SpectralClusterer:
     self.post_eigen_cluster_function = post_eigen_cluster_function
 
   def _compute_eigenvectors_ncluster(self, affinity, constraint_matrix=None):
-    """Perform eigen decomposition and estiamte the number of clusters.
+    """Perform eigen decomposition and estimate the number of clusters.
 
     Perform affinity refinement, eigen decomposition and sort eigenvectors by
     the real part of eigenvalues. Estimate the number of clusters using EigenGap
